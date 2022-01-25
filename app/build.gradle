@@ -49,6 +49,8 @@ android {
         execution 'ANDROIDX_TEST_ORCHESTRATOR'
     }
 
+    testBuildType "staging"
+
     buildTypes {
         debug {
             applicationIdSuffix '.debug'
